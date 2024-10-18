@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .button {
+            margin-left: 90px;
+            margin-top: 20px;
+            border: 2px solid;
+            border-radius: 12px;
+            padding: 5px;
+            display: flex;
+            padding: 20px;
+            padding-right: 20px;
+            border: transparent;
+            background: transparent;
+            border: 2px solid rgb(255, 255, 255, .2);
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+            border-radius: 40px;
+            color: #fff;
+        }
+
+        .login {
+            margin-left: 20px;
+            margin-top: 20px;
+            width: 70%;
+            height: 100%;
+            background: transparent;
+            border: none;
+            outline: none;
+            border: 2px solid rgb(255, 255, 255, .2);
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+            border-radius: 40px;
+            font-size: 16px;
+            color: #fff;
+            padding: 20px 20px 20px 20px;
+            box-shadow: 10px
+        }
+
+        .password {
+            margin-left: 20px;
+            margin-top: 20px;
+            width: 70%;
+            height: 100%;
+            background: transparent;
+            border: none;
+            outline: none;
+            border: 2px solid rgb(255, 255, 255, .2);
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+            border-radius: 40px;
+            font-size: 16px;
+            color: #fff;
+            padding: 20px 20px 20px 20px;
+            box-shadow: 10px
+        }
+
+        .contejner {
+            padding: 10px;
+            background: linear-gradient(45deg, #46AFEC, #1189F6);
+            border: none;
+            outline: none;
+            border: 2px solid rgb(255, 255, 255, .2);
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+            border-radius: 40px;
+        }
+
+        .body {
+            justify-content: center;
+            align-items: center;
+            display: flex;
+            min-height: 100vh;
+            background: linear-gradient(45deg, #007dfa, #7ad4e1)
+        }
+
+        ::placeholder {
+            color: #fff;
+        }
+    </style>
+</head>
+
+<body class="body">
+    <form class="contejner">
+        <div>
+            <input class="login" id="login-input" placeholder="User" />
+            <label for="login-input"> </label>
+        </div>
+        <div>
+            <input class="password" id="password-input" placeholder="Password" />
+            <label for="password-input"> </label>
+        </div>
+
+        <button class="button">Login</button>
+    </form>
+</body>
+</html>
